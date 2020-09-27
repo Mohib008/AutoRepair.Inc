@@ -10,12 +10,17 @@ class App extends Component {
       AutoIncs: [],
       searchField: ''
     };
+    this.handleChange = this.handleChange.bind(this);
   }
 
   componentDidMount() {
      fetch('https://jsonplaceholder.typicode.com/users')
      .then(response => response.json())
      .then(users => this.setState({AutoIncs: users}));
+  }
+
+  handleChange(e) {
+    this.setState({ searchField: e.target.value })
   }
 
   render() {
@@ -28,7 +33,7 @@ class App extends Component {
        <div className="App">
          <SearchBox
            placeholder="search Cars"
-           handleChange={e => this.setState({ searchField: e.target.value })}
+           handleChange={this.handleChange}
          />
          <CardList AutoIncs = {filteredAutoIncs} />
        </div>
