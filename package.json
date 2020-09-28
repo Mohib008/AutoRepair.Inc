@@ -2,7 +2,7 @@
   "name": "serverfrontend",
   "version": "0.1.0",
   "private": true,
-  "homepage": "https://Mohib008.github.io/AutoRepair.Inc",
+  "homepage": "https://mohib008.github.io/AutoRepair.Inc/",
   "dependencies": {
     "@testing-library/jest-dom": "^4.2.4",
     "@testing-library/react": "^9.5.0",
