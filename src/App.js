@@ -10,7 +10,6 @@ class App extends Component {
       AutoIncs: [],
       searchField: ''
     };
-    this.handleChange = this.handleChange.bind(this);
   }
 
   componentDidMount() {
@@ -19,7 +18,7 @@ class App extends Component {
      .then(users => this.setState({AutoIncs: users}));
   }
 
-  handleChange(e) {
+  handleChange = (e) => {
     this.setState({ searchField: e.target.value })
   }
 
@@ -31,6 +30,7 @@ class App extends Component {
 
     return (
        <div className="App">
+        <h1> AutoRepairInc </h1>
          <SearchBox
            placeholder="search Cars"
            handleChange={this.handleChange}
