@@ -1,0 +1,22 @@
+{
+  "files": {
+    "main.css": "/AutoRepair.Inc/static/css/main.99be5b8a.chunk.css",
+    "main.js": "/AutoRepair.Inc/static/js/main.608bd1b5.chunk.js",
+    "main.js.map": "/AutoRepair.Inc/static/js/main.608bd1b5.chunk.js.map",
+    "runtime-main.js": "/AutoRepair.Inc/static/js/runtime-main.762dd88c.js",
+    "runtime-main.js.map": "/AutoRepair.Inc/static/js/runtime-main.762dd88c.js.map",
+    "static/js/2.73e00a59.chunk.js": "/AutoRepair.Inc/static/js/2.73e00a59.chunk.js",
+    "static/js/2.73e00a59.chunk.js.map": "/AutoRepair.Inc/static/js/2.73e00a59.chunk.js.map",
+    "index.html": "/AutoRepair.Inc/index.html",
+    "precache-manifest.c73b8c8fd6bdd89aa7738b0cb2c62e80.js": "/AutoRepair.Inc/precache-manifest.c73b8c8fd6bdd89aa7738b0cb2c62e80.js",
+    "service-worker.js": "/AutoRepair.Inc/service-worker.js",
+    "static/css/main.99be5b8a.chunk.css.map": "/AutoRepair.Inc/static/css/main.99be5b8a.chunk.css.map",
+    "static/js/2.73e00a59.chunk.js.LICENSE.txt": "/AutoRepair.Inc/static/js/2.73e00a59.chunk.js.LICENSE.txt"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.762dd88c.js",
+    "static/js/2.73e00a59.chunk.js",
+    "static/css/main.99be5b8a.chunk.css",
+    "static/js/main.608bd1b5.chunk.js"
+  ]
+}
